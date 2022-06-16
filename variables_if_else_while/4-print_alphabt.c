@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet,
- * followed by a new line
- * Return: Always 0 (Success)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
  */
 int main(void)
 {
@@ -11,9 +11,9 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if(c != 'q' && c != 'e' )
+		if (c != 'e' && c != 'q')
 		{
-			putchar (c) ;
+			putchar(c);
 		}
 	}
 	putchar('\n');
