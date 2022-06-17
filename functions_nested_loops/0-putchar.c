@@ -6,6 +6,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+#include "main.h"
+#include <ctype.h>
 {
 	_putchar('_');
 	_putchar('p');
