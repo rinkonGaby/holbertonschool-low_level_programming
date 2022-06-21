@@ -4,5 +4,5 @@
 #include <stdio.h>
 
 void positive_or_negative(int n);
-
+int add(int, int);
 #endif /* MAIN_H */
